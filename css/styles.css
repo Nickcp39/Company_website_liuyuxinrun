@@ -15,7 +15,7 @@ body {
 
 /* 设置页眉背景图片和样式 */
 header {
-    background: url('../image_website/logo.jpg') no-repeat center center;
+    background: url('../image_website/background.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     text-align: center;
