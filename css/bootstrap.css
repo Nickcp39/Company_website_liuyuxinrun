@@ -1155,7 +1155,7 @@ img {
   height: auto;
 }
 .highlighted-text {
-    font-size: 40em; /* 设置字体大小为原来的两倍 */
+    font-size: 5em; /* 设置字体大小为原来的两倍 */
     color: #00008B; /* 设置字体颜色为橙红色 */
     font-weight: bold; /* 字体加粗 */
 }
