@@ -1137,7 +1137,7 @@ img {
 /* Large Images */
 .resize_img_large {
   width: 100%; /* Use a percentage to be responsive */
-  max-width: 400px; /* Maximum width */
+  max-width: 2000px; /* Maximum width */
   height: auto; /* Maintain aspect ratio */
 }
 
