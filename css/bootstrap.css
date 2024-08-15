@@ -1154,7 +1154,11 @@ img {
   max-width: 100px; /* Smaller than medium */
   height: auto;
 }
-
+.highlighted-text {
+    font-size: 2em; /* 设置字体大小为原来的两倍 */
+    color: #00008B; /* 设置字体颜色为橙红色 */
+    font-weight: bold; /* 字体加粗 */
+}
 .img-rounded {
   border-radius: 6px;
 }
