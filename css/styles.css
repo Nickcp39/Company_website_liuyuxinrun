@@ -33,8 +33,3 @@ footer {
     margin-top: 20px;
 }
 
-.resize {
-  width: 800px;  /* 或者你希望的任何尺寸 */
-  height: 400px;
-  object-fit: cover; /* 这个属性确保图片以合适的方式填充尺寸，不会变形 */
-}
