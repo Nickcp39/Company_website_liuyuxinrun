@@ -1134,6 +1134,26 @@ img {
   height: 400px;
   object-fit: cover; /* 这个属性确保图片以合适的方式填充尺寸，不会变形 */
 }
+/* Large Images */
+.resize_img_large {
+  width: 100%; /* Use a percentage to be responsive */
+  max-width: 400px; /* Maximum width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Medium Images */
+.resize_img_medium {
+  width: 100%;
+  max-width: 200px; /* Smaller than large */
+  height: auto;
+}
+
+/* Small Images */
+.resize_img_small {
+  width: 100%;
+  max-width: 100px; /* Smaller than medium */
+  height: auto;
+}
 
 .img-rounded {
   border-radius: 6px;
