@@ -1,7 +1,6 @@
 /* header.css - 顶部横幅区域样式 */
-
 header {
-    background: url('amazing_photos/site_view01.png') no-repeat center center/cover;
+    background: url('../amazing_photos/site_view01.png') no-repeat center center/cover;
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -13,18 +12,17 @@ header {
     z-index: 1;
   }
   
-  header h1 {
-    font-size: 3em;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 0.5em 1em;
-    border-radius: 8px;
-    margin: 0.3em 0;
+  header::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* 可调整透明度增强文字可读性 */
+    z-index: 0;
   }
   
+  header h1,
   header p {
-    font-size: 1.5em;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 0.3em 1em;
-    border-radius: 6px;
+    position: relative;
+    z-index: 1;
   }
   
