@@ -221,9 +221,8 @@ body {
   }
   .highlight-intro {
     background: url("amazing_photos/background_view01_sky.png") no-repeat center center/cover;
+    padding: 80px 20px;
     color: white;
-    text-align: center;
-    padding: 100px 20px;
     position: relative;
   }
   
@@ -232,20 +231,21 @@ body {
     position: absolute;
     top: 0; left: 0;
     right: 0; bottom: 0;
-    background-color: rgba(0,0,0,0.5);
-    z-index: 1;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 0;
   }
   
   .highlight-text {
     position: relative;
-    z-index: 2;
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: rgba(255,255,255,0.05);
-    padding: 40px 20px;
-    border-radius: 10px;
+    z-index: 1;
+    max-width: 900px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 40px 30px;
+    border-radius: 12px;
     text-align: center;
   }
+  
   
   
   .highlight-text h2 {
