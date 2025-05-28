@@ -31,8 +31,9 @@
     background: #f8f8f8;
     border-radius: 10px;
     box-shadow: 0 1px 6px rgba(0,0,0,0.08);
-    max-width: 300px;
-  }
+    max-width: 400px; /* 原为300px */
+}
+
   
   .contact-card-grid img {
     max-width: 100%;

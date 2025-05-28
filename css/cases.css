@@ -53,4 +53,24 @@
     background-attachment: fixed;
     color: white;
   }
+  .section-cases {
+    background: url('../amazing_photos/background_view03_mountain.png') no-repeat center center/cover;
+    color: white;
+    position: relative;
+    padding: 60px 30px;
+    border-radius: 12px;
+  }
+  
+  .section-cases::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+  }
+  
+  .section-cases > * {
+    position: relative;
+    z-index: 1;
+  }
   

@@ -60,4 +60,23 @@
     font-size: 14px;
     color: #666;
   }
+  .section-contact-form {
+    background: url('../amazing_photos/background_view04_rain.png') no-repeat center center/cover;
+    padding: 60px 30px;
+    color: white;
+    position: relative;
+  }
+  
+  .section-contact-form::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+  }
+  
+  .section-contact-form > * {
+    position: relative;
+    z-index: 1;
+  }
   
