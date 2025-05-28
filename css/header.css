@@ -1,8 +1,8 @@
-/* header.css */
 header {
     background: url('../amazing_photos/site_view01.png') no-repeat center center/cover;
-    background-color: #000; /* 防止 png 透明背景透出白底 */
-    height: 90vh;
+    background-color: #000; /* 防止透明PNG图露出白底 */
+    height: 100vh; /* 占满整个首屏 */
+    padding-top: 80px; /* ⬅️⬅️关键点：避开顶部导航栏！ */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,7 +17,7 @@ header {
     content: "";
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0, 0, 0, 0.45);
+    background: rgba(0, 0, 0, 0.4); /* 给图片加遮罩，避免文字看不清 */
     z-index: 0;
   }
   
