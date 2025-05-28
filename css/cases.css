@@ -48,4 +48,9 @@
     font-size: 15px;
     color: #555;
   }
+  .section-bg-rain {
+    background: url("amazing_photos/background_view04_rain.png") no-repeat center center/cover;
+    background-attachment: fixed;
+    color: white;
+  }
   

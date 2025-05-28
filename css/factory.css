@@ -1,0 +1,34 @@
+/* factory.css - 生产现场图滚动区域样式 */
+
+.section-factory {
+    background-color: #ffffff;
+    padding: 60px 30px;
+    border-radius: 12px;
+    max-width: 1100px;
+    margin: 60px auto;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+  
+  .section-factory h2 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    border-left: 4px solid #002e5b;
+    padding-left: 12px;
+  }
+  
+  /* 横向滚动相册 */
+  .scroll-gallery {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px 0;
+  }
+  
+  .scroll-gallery img {
+    height: 200px;
+    border-radius: 8px;
+    flex-shrink: 0;
+    object-fit: cover;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  }
+  
