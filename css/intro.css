@@ -1,0 +1,49 @@
+/* intro.css - 公司简介区域样式 */
+
+.highlight-intro {
+    background: url('amazing_photos/background_view01_sky.png') no-repeat center center/cover;
+    padding: 80px 20px;
+    color: white;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .highlight-intro::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+  }
+  
+  .highlight-text {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 40px 30px;
+    border-radius: 12px;
+    text-align: center;
+  }
+  
+  .highlight-text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .highlight-text p,
+  .highlight-text ul {
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #f0f0f0;
+  }
+  
+  .highlight-text ul {
+    list-style: disc;
+    padding-left: 30px;
+    text-align: left;
+  }
+  

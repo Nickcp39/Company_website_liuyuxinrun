@@ -1,0 +1,33 @@
+/* certification.css - 资质与证书展示样式 */
+
+.section-certification {
+    background-color: #fafafa;
+    padding: 60px 30px;
+    border-radius: 12px;
+    margin: 60px auto;
+    max-width: 1100px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+  
+  .section-certification h2 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    border-left: 4px solid #002e5b;
+    padding-left: 12px;
+  }
+  
+  /* 单图展示样式（可扩展为多图） */
+  .certification-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .certification-gallery img {
+    max-width: 320px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    object-fit: contain;
+  }
+  

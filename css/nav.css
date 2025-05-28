@@ -1,0 +1,41 @@
+/* nav.css - 顶部导航栏样式 */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2em 2em;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: 
+      0 0 1px #FFD700,
+      0 0 2px #FFD700,
+      0 0 3px #FFD700;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #fde428;
+  }
+  
+  nav div:first-child {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 
+      0 0 1px #FFD700,
+      0 0 2px #FFD700,
+      0 0 3px #FFD700;
+  }
+  

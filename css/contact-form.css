@@ -1,0 +1,63 @@
+/* contact-form.css - 联系我们表单样式 */
+
+.section-contact-form {
+    background-color: #fdfdfd;
+    padding: 60px 30px;
+    margin: 60px auto;
+    max-width: 1100px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .section-contact-form h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    border-left: 4px solid #002e5b;
+    padding-left: 12px;
+    color: #002e5b;
+  }
+  
+  .section-contact-form p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .section-contact-form .wechat {
+    width: 220px;
+    margin: 30px auto;
+    display: block;
+    border-radius: 8px;
+  }
+  
+  /* 表单区域 */
+  .section-contact-form form input,
+  .section-contact-form form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .section-contact-form form button {
+    background-color: #002e5b;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .section-contact-form form button:hover {
+    background-color: #001a3d;
+  }
+  
+  .section-contact-form .form-tip {
+    font-size: 14px;
+    color: #666;
+  }
+  

@@ -1,0 +1,43 @@
+/* contact-details.css - 名片与联系方式展示样式 */
+
+.section-contact-details {
+    background-color: #ffffff;
+    padding: 60px 30px;
+    border-radius: 12px;
+    margin: 60px auto;
+    max-width: 1100px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+  
+  .section-contact-details h2 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    border-left: 4px solid #002e5b;
+    padding-left: 12px;
+    color: #002e5b;
+  }
+  
+  /* 卡片式布局，适配不同图片尺寸 */
+  .contact-card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  
+  .contact-card-grid .card-box {
+    padding: 10px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+    max-width: 300px;
+  }
+  
+  .contact-card-grid img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+  
