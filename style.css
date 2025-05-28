@@ -173,12 +173,13 @@ body {
   }
   
   .scroll-gallery img {
-    height: 180px;
+    height: 220px;
     border-radius: 6px;
     flex-shrink: 0;
     object-fit: cover;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   }
+  
   /* 名片 + 微信二维码区域统一尺寸样式 */
 .contact-card-grid {
     display: flex;
