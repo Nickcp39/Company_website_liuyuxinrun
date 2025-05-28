@@ -243,7 +243,9 @@ body {
     background-color: rgba(255,255,255,0.05);
     padding: 40px 20px;
     border-radius: 10px;
+    text-align: center;
   }
+  
   
   .highlight-text h2 {
     font-size: 2em;
