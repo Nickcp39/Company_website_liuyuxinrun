@@ -1,20 +1,20 @@
 /* news.css - 垂直滚动新闻样式 */
 .news-ticker-section {
     background-color: #fff8dc;
-    padding: 20px 0;
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
+    padding: 0; /* 去掉 padding，避免垂直偏差 */
+    height: 60px; /* 高度决定单条新闻高度 */
     overflow: hidden;
-    height: 60px; /* 可根据需要调整高度 */
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   
   .ticker-title {
-    text-align: center;
-    font-size: 1.4em;
-    font-weight: bold;
-    color: #002e5b;
-    margin-bottom: 10px;
+    position: absolute;
+    top: -9999px; /* 隐藏标题，如果你不希望它显示 */
   }
   
   .news-ticker {
@@ -33,15 +33,18 @@
   }
   
   .news-ticker li {
-    height: 60px; /* 与 .news-ticker-section 高度一致 */
+    height: 60px;
     line-height: 60px;
     text-align: center;
     font-size: 1em;
+    color: #002e5b;
   }
   
   .news-ticker a {
     text-decoration: none;
     color: #002e5b;
+    display: inline-block;
+    width: 100%;
   }
   
   .news-ticker a:hover {
@@ -50,6 +53,6 @@
   
   @keyframes scroll-vertical {
     0%   { top: 100%; }
-    100% { top: -400%; } /* 取决于有多少行，5行就用 -400% */
+    100% { top: -400%; } /* 如果你有5条，使用 -400% */
   }
   
